@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aaayuuuuu - Love for My Babe</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive;
+            background-color: pink;
+            text-align: center;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: red;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .message {
+            margin-top: 20px;
+            font-size: 20px;
+            padding: 20px;
+            background: rgba(255, 182, 193, 0.8);
+            border-radius: 10px;
+            font-weight: bold;
+        }
+        footer {
+            margin-top: 40px;
+            background-color: red;
+            padding: 10px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Happy Birthday in Advance, Babe! 🎉</h1>
+    </header>
+    
+    <section class="message">
+        <p>I miss you, I love you dherr sara! 💕</p>
+    </section>
+
+    <section class="message">
+        <p>You are my everything. I can't live without you! ❤️</p>
+    </section>
+
+    <footer>
+        <p>Forever yours, with love. ❤️</p>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const messages = document.querySelectorAll(".message");
+            setInterval(() => {
+                messages.forEach(msg => {
+                    msg.style.transform = `scale(${1 + Math.random() * 0.05})`;
+                });
+            }, 1000);
+        });
+    </script>
+</body>
+</html>
